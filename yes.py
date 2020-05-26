@@ -1,3 +1,5 @@
+import autotest
+from autotest import autotest_lib
 from autotest_lib.client.common_lib.cros import chromedriver
 with chromedriver.chromedriver() as chromedriver_instance:
    driver = chromedriver_instance.driver
